@@ -1,0 +1,21 @@
+{
+  "name": "product_page",
+  "version": "1.0.0",
+  "description": "A product page build with Middleman and Webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "production": "node_modules/.bin/webpack -p",
+    "start": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsteronfire/middleman-product-page.git"
+  },
+  "author": "monsteronfire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monsteronfire/middleman-product-page/issues"
+  },
+  "homepage": "https://github.com/monsteronfire/middleman-product-page#readme"
+}
