@@ -29,6 +29,8 @@ activate :external_pipeline,
   #activate :livereload
 #end
 
+activate :livereload
+
 ###
 # Helpers
 ###
