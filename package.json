@@ -1,7 +1,7 @@
 {
   "name": "product_page",
   "version": "1.0.0",
-  "description": "A product page build with Middleman and Webpack",
+  "description": "A product page built with Middleman",
   "main": "webpack.config.js",
   "scripts": {
     "production": "node_modules/.bin/webpack -p",
