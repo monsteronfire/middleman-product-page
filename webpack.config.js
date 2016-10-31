@@ -1,14 +1,14 @@
 module.exports = {
-  entry: [
-    { site: './source/javascripts/site.js' }
-  ],
+  entry: {
+    site: './source/javascripts/site.js'
+  },
 
-  resolve: [
-    { root: __dirname + '/source/javascripts' }
-  ],
+  resolve: {
+    root: __dirname + '/source/javascripts'
+  },
 
   output: {
     path: __dirname + '/.tmp/dist',
     filename: 'javascripts/site.js'
   }
-}
+};
