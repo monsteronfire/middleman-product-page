@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    site: './source/javascripts/site.js'
+    site: './source/javascripts/all.js'
   },
 
   resolve: {
@@ -11,6 +11,6 @@ module.exports = {
 
   output: {
     path: __dirname + '/.tmp/dist',
-    filename: 'javascripts/site.js'
+    filename: 'javascripts/all.js'
   }
 };

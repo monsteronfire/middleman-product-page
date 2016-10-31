@@ -36,6 +36,6 @@ Session.vim
 npm-debug.log
 
 #config
-config.ru
-config.rb
-Gemfile.lock
+#config.ru
+#config.rb
+#Gemfile.lock
