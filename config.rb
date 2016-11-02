@@ -25,11 +25,11 @@ activate :external_pipeline,
   latency: 1
 
 # Reload the browser automatically whenever files change
-#configure :development do
-  #activate :livereload
-#end
+configure :development do
+  activate :livereload
+end
 
-activate :livereload
+#activate :livereload
 
 ###
 # Helpers

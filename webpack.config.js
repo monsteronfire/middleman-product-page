@@ -12,5 +12,10 @@ module.exports = {
   output: {
     path: __dirname + '/.tmp/dist',
     filename: 'javascripts/all.js'
-  }
+  },
+  plugins: [
+      new webpack.ProvidePlugin({
+          jQuery: 'jquery'
+      })
+  ]
 };
